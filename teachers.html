@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers - St. Thomas HSS Erattayar</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar glass">
+        <div class="logo">St. Thomas HSS</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="teachers.html" class="active">Teachers</a></li>
+            <li><a href="textbooks.html">Textbooks</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Teachers Section -->
+    <section id="teachers" style="padding-top: 120px;">
+        <h2 class="section-title">Our Dedicated Faculty</h2>
+        <div class="grid" id="teachers-grid">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+    <!-- Teacher Details Modal -->
+    <div id="teacher-modal" class="modal-overlay hidden">
+        <div class="modal-content glass">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <div id="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 St. Thomas HSS Erattayar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
