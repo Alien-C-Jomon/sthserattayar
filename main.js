@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 subject: "Head Mistress",
                 desc: "Headmistress of the School",
                 contact: "+91 94009 59991",
-                photo: "assets/teachers/georgekutty_mv_new.png"
+                photo: "assets/teachers/JijimolMa'am_Profile.jpg"
             },
             {
                 name: "Kochurani Joseph",
