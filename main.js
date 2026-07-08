@@ -33,13 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 contact: "+91 94009 59991",
                 photo: "assets/teachers/JijimolMa'am_Profile.jpg"
             },
-            {
-                name: "Kochurani Joseph",
-                subject: "Senior Faculty & English Teacher",
-                desc: "Senior Faculty in HS",
-                contact: "+91 98467 57303",
-                photo: "assets/teachers/kochurani_joseph.jpg"
-            },
+            
             {
                 name: "Shiny Mathew",
                 subject: "Chemistry/Physics Teacher",
