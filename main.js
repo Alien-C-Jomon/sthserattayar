@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (teachersGrid && teachersGrid.children.length === 0) {
         const teachersData = [
             {
-                name: "Georgekutty M V",
-                subject: "Head Master",
-                desc: "Headmaster of the School",
-                contact: "+91 94472 05828",
+                name: "Jijimol Mathew",
+                subject: "Head Mistress",
+                desc: "Headmistress of the School",
+                contact: "+91 94009 59991",
                 photo: "assets/teachers/georgekutty_mv_new.png"
             },
             {
