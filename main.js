@@ -1,14 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Custom Cursor Logic
-    const cursor = document.createElement('div');
-    cursor.classList.add('cursor');
-    document.body.appendChild(cursor);
-
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.left = e.clientX + 'px';
-        cursor.style.top = e.clientY + 'px';
-    });
-
     // Add hover effect to interactive elements
     const interactiveElements = document.querySelectorAll('a, button, .card');
 
